@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="king">
+        <div class="hello">
+            <div>
+                <input type="text" id="hello2" placeholder="0" disabled>
+            </div>
+            <div>
+                <button class="hello2 " onclick="allClear()">AC</button>
+                <button class="hello2" onclick="del()">DEL</button>
+                <button class="hello2">%</button>
+                <button class="hello2" onclick="input('/')">/</button>
+            </div>
+            <div>
+                <button onclick="input('7')">7</button>
+                <button onclick="input('8')">8</button>
+                <button onclick="input('9')">9</button>
+                <button class="hello2" onclick="input('*')">*</button>
+            </div>
+            <div>
+                <button onclick="input('4')">4</button>
+                <button onclick="input('5')">5</button>
+                <button onclick="input('6')">6</button>
+                <button class="hello2" onclick="input('-')">-</button>
+            </div>
+            <div>
+                <button onclick="input('1')">1</button>
+                <button onclick="input('2')">2</button>
+                <button onclick="input('3')">3</button>
+                <button class="hello2" onclick="input('+')">+</button>
+            </div>
+            <div>
+                <button onclick="input('00')">00</button>
+                <button onclick="input('0')">0</button>
+                <button class="hello2" onclick="input('.')">.</button>
+                <button class="hello1" onclick="calc()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
