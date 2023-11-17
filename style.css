@@ -71,7 +71,7 @@ button {
 
 
 @media screen and (max-width:450px) {
-    .king {
+    .hello {
         width: 340px;
     }
 
@@ -83,4 +83,36 @@ button {
         width: 50px;
         height: 50px;
     }
+}
+
+@media screen and (max-width:768px) and (min-width:450px) {
+
+    input {
+        height: 30px;
+        width: 200px;
+    }
+
+    .hello {
+        margin-top: -100px;
+        height: 330px;
+    }
+
+    button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hello2 {
+        font-size: 10px;
+    }
+
+    .good {
+        font-size: 10px;
+    }
+
+    #hello2 {
+        font-size: 20px;
+    }
+
+
 }
